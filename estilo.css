@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(182, 182, 182);
+}
+.head{
+    position: relative;
+   margin-bottom: 1px;
+    width: 100%;
+}
+
+.head div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    background-color: whitesmoke;
+    margin-bottom: 1px, black;
+}
+.head div a{
+    text-decoration: none;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: black;
+}
+
+.img1{
+    margin-top: 8px;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+   padding: 0px;
+   padding-bottom: 15px;
+    margin-top: 1px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 20px;
+                
+              
+}
+
+.nav1 div {
+    left: -10px;
+    padding-left: 50px;
+    color: #4d4d4d;
+}
+
+.nav1 div a{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #4d4d4d;
+}
+
+.nav1 ul{
+padding-top: 10px;
+
+}
+.nav1 ul a{
+    
+    color: #4d4d4d;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.card{
+    display: flex;
+text-align: center;
+width:40rem 20rem;
+justify-content: center;
+}
+
+.slider{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+}
+.slider ul{
+padding: 0;
+display: flex;
+width: 400%;
+animation: cambio 20s infinite;
+    
+}
+
+.slider a{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: black;
+}
+.slider h6{
+
+color: white;
+font-size: small;
+
+}
+
+
+.slider li{
+    width: 100%;
+    padding: 0;
+    height: 600px;
+}
+.slider ul img{
+    width: 100%;
+    height: 600px;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+}
